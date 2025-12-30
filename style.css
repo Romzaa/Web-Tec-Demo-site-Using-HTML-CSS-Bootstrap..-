@@ -63,9 +63,8 @@ body header .hero-form {
     position: absolute;
     background-color: rgba(0, 0, 0, 0.521);
     border-radius: 20px;
-    width: 650px;
-    height: 180px;
-    margin-top: 450px;
+    width: clamp(180px, 100vw, 450px);
+    margin-top: 400px;
     justify-self: center;
     justify-items: center;
     text-align: center;
@@ -127,5 +126,6 @@ textarea {
 
 body main .contact input {
     width: 280px;
+
 
 }
